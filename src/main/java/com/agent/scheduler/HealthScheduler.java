@@ -32,7 +32,7 @@ public class HealthScheduler {
                 config.getHealthUrl()
         );
 
-//        reporter.report(payload);
+        reporter.report(payload);
 
         logger.debug(
                 "Health sent: service={} status={} responseTimeMs={}",
